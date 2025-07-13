@@ -1,12 +1,53 @@
-# React + Vite
+# 🚀 Mis Primeros Pasos con React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React Badge](https://img.shields.io/badge/react-%5E18.0.0-blue?logo=react&logoColor=white)
+![License Badge](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-en%20aprendizaje-orange)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 📖 Descripción
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este proyecto es un **ejemplo simple en React** donde al presionar un botón se **agranda una imagen de forma temporal** 🖼️➡️🔍.
+
+Es mi primer acercamiento a React, explorando estados y eventos de forma práctica.
+
+🧩 Funcionalidades
+🖱️ Botones que agrandan imágenes al hacer clic.
+
+⏲️ La imagen vuelve a su tamaño original luego de 500ms.
+
+📦 Componentes reutilizables: Card, Botoncito.
+
+## 🛠️ Tecnologías usadas
+
+- ⚛️ [React](https://react.dev/)
+- ⚡ [Vite](https://vitejs.dev/) 
+- 🎨 CSS
+- 🧠 JavaScript (ES6+)
+
+
+## 📦 Instalación y uso
+
+git clone 👉 https://github.com/FerMarcos606/React-con-botoncito
+
+src/
+│
+├── componentes/
+│   ├── botoncito/
+│   │   └── Botoncito.jsx
+│   └── cards/
+│       └── Card.jsx
+├── img/
+│   ├── avatar.jpg
+│   ├── lectura.png
+│   └── zentangle.svg
+├── App.jsx
+└── main.jsx
+
+✍️ Autoría
+Hecho por Fer 🐱✨
+Dinamizadora sociocultural, amante de la CF, los gatos y el arte.
+
+💡 Inspiración
+"No sabes dibujar, ¡haz zentangles!" 🎨🌀
