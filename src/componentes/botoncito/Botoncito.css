@@ -1,0 +1,13 @@
+ .botoncito{
+    padding: 10px 20px;
+    background-color: rgb(192, 127, 130);
+    color: rgb(245, 238, 238);
+    border: none;
+    border-radius: 8px;
+    cursor:pointer;
+  transition: background-color 0.5s;
+}
+
+.botoncito:hover {
+  background: linear-gradient(90deg,rgba(155, 42, 42, 1) 0%, rgba(199, 87, 100, 1) 50%, rgba(237, 221, 83, 0.9) 100%);
+}
